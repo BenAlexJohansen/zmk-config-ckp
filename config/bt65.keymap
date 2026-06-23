@@ -10,20 +10,6 @@
 //#define HHKB
 
 / {
-  chosen {
-  #ifdef ANSI
-    zmk,physical-layout = &layout_65_ansi;
-  #elif defined(ISO)
-    zmk,physical-layout = &layout_65_iso;
-  #elif defined(ALL_1U)
-    zmk,physical-layout = &layout_65_all1u;
-  #elif defined(HHKB)
-    zmk,physical-layout = &layout_65_hhkb;
-  #else
-  #error "Layout not defined, please define a layout by uncommenting the appropriate line in bt65.keymap"
-  #endif
-  };
-
   keymap {
     compatible = "zmk,keymap";
     #ifdef ANSI
