@@ -29,7 +29,7 @@
         &kp LSHFT     &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH   &kp RSHFT   &kp UP &kp PG_DN
         &kp LCTRL &kp LGUI &kp LALT            &kp SPACE                   &kp RALT  &mo 1 &kp RCTRL &kp LEFT &kp DOWN &kp RIGHT
       >;
-      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
     raise {
         // --------------------------------------------------------------------------------------------------
@@ -46,7 +46,7 @@
         &trans &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &bl BL_INC &bl BL_DEC &trans &trans &trans &trans &trans  &trans &kp HOME &kp END
         &bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans   &trans   &trans &trans &trans &bt BT_CLR
       >;
-      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
     #elif defined(ISO)
     default_layer {
@@ -65,7 +65,7 @@
         &kp LSHFT &kp NON_US_BSLH &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH   &kp RSHFT   &kp UP &kp PG_DN
         &kp LCTRL &kp LGUI &kp LALT            &kp SPACE                   &kp RALT  &mo 1 &kp RCTRL &kp LEFT &kp DOWN &kp RIGHT
       >;
-      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
     raise {
         // --------------------------------------------------------------------------------------------------
@@ -82,7 +82,7 @@
         &trans &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &bl BL_INC &bl BL_DEC  &trans &trans &trans &trans &trans &trans &trans  &kp HOME &kp END
         &bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans   &trans   &trans &trans &trans  &bt BT_CLR
       >;
-      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
     #elif defined(ALL_1U)
     default_layer {
@@ -100,7 +100,7 @@
         &kp LSHFT &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH    &kp RSHFT &none   &kp UP &kp PG_DN
         &kp LCTRL &kp LGUI &kp LALT            &kp SPACE                         &kp LALT  &mo 1 &kp RCTRL &kp LEFT &kp DOWN &kp RIGHT
       >;
-      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
     raise {
         // --------------------------------------------------------------------------------------------------
@@ -117,7 +117,7 @@
         &trans &none &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &bl BL_INC &bl BL_DEC &trans &trans &trans &trans &trans &trans  &trans &trans &kp INS
         &bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans   &trans   &trans &trans &trans &bt BT_CLR
       >;
-      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+      ssensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
     #elif defined(HHKB)
     default_layer {
@@ -136,7 +136,7 @@
         &kp LSHFT     &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH   &kp RSHFT   &kp PG_UP
         &kp LCTRL &kp LGUI &kp LALT            &kp SPACE                   &kp RALT  &mo 1 &kp RCTRL  &kp PG_DN
       >;
-      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
     raise {
         // --------------------------------------------------------------------------------------------------
@@ -153,7 +153,7 @@
         &trans  &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &bl BL_INC &bl BL_DEC &trans &trans &trans &trans &trans  &trans  &kp INS
         &bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans   &trans   &trans &bt BT_CLR
       >;
-      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
     #else
     #error "Layout not defined, please define a layout by uncommenting the appropriate line in bt65.keymap"
